@@ -1,0 +1,1582 @@
+fileFormatVersion: 2
+guid: 5e1236c9da7320a45b834aaec4e70b9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1895433129564475845
+    second: Paredes_0
+  - first:
+      213: -5715055960734410157
+    second: Paredes_1
+  - first:
+      213: -1973114492688062722
+    second: Paredes_2
+  - first:
+      213: -4765847839336209045
+    second: Paredes_3
+  - first:
+      213: -6659889779433124344
+    second: Paredes_4
+  - first:
+      213: 21601579227421369
+    second: Paredes_5
+  - first:
+      213: 1352824143358360269
+    second: Paredes_6
+  - first:
+      213: 5302212941724951960
+    second: Paredes_7
+  - first:
+      213: -4301732695567526576
+    second: Paredes_8
+  - first:
+      213: 1598498175783665898
+    second: Paredes_9
+  - first:
+      213: -2443741088075595399
+    second: Paredes_10
+  - first:
+      213: 1101978838674888097
+    second: Paredes_11
+  - first:
+      213: -8410326994171907482
+    second: Paredes_12
+  - first:
+      213: -4521073969657509394
+    second: Paredes_13
+  - first:
+      213: -587544705232022549
+    second: Paredes_14
+  - first:
+      213: 4152818607092868837
+    second: Paredes_15
+  - first:
+      213: 4648395432000329643
+    second: Paredes_16
+  - first:
+      213: 4904037883576702560
+    second: Paredes_17
+  - first:
+      213: -5147001212435945114
+    second: Paredes_18
+  - first:
+      213: -274336276637970230
+    second: Paredes_19
+  - first:
+      213: -4018689941789413354
+    second: Paredes_20
+  - first:
+      213: -444608631255451721
+    second: Paredes_21
+  - first:
+      213: 4395961465245430566
+    second: Paredes_22
+  - first:
+      213: -673537766735223543
+    second: Paredes_23
+  - first:
+      213: -1485864946700016636
+    second: Paredes_24
+  - first:
+      213: 1082167403261218631
+    second: Paredes_25
+  - first:
+      213: -1953926129415849735
+    second: Paredes_26
+  - first:
+      213: 4070803646099970579
+    second: Paredes_27
+  - first:
+      213: -9217354084608157651
+    second: Paredes_28
+  - first:
+      213: 3854151587308119976
+    second: Paredes_29
+  - first:
+      213: 7810506007578345625
+    second: Paredes_30
+  - first:
+      213: -7036626189673525054
+    second: Paredes_31
+  - first:
+      213: 5692556452468444216
+    second: Paredes_32
+  - first:
+      213: -5190550391461894265
+    second: Paredes_33
+  - first:
+      213: 7718011205386604424
+    second: Paredes_34
+  - first:
+      213: -7114128832127031192
+    second: Paredes_35
+  - first:
+      213: -4371686425846071498
+    second: Paredes_36
+  - first:
+      213: 4198544585416278049
+    second: Paredes_37
+  - first:
+      213: -5789862680437895513
+    second: Paredes_38
+  - first:
+      213: -6492993565476309618
+    second: Paredes_39
+  - first:
+      213: -6607818489919424364
+    second: Paredes_40
+  - first:
+      213: -8919337098095786512
+    second: Paredes_41
+  - first:
+      213: -2665803818116940517
+    second: Paredes_42
+  - first:
+      213: -1340322784099271824
+    second: Paredes_43
+  - first:
+      213: -8795326658905782916
+    second: Paredes_44
+  - first:
+      213: -8183828543479445020
+    second: Paredes_45
+  - first:
+      213: -4453666279291509069
+    second: Paredes_46
+  - first:
+      213: 8088266981231320512
+    second: Paredes_47
+  - first:
+      213: 7233299498389603938
+    second: Paredes_48
+  - first:
+      213: 5570605748571602061
+    second: Paredes_49
+  - first:
+      213: 2814968478700309647
+    second: Paredes_50
+  - first:
+      213: -1583936951488827145
+    second: Paredes_51
+  - first:
+      213: -7508147634132572041
+    second: Paredes_52
+  - first:
+      213: 6926700870717252525
+    second: Paredes_53
+  - first:
+      213: -3425645902606785196
+    second: Paredes_54
+  - first:
+      213: -5317712449249541963
+    second: Paredes_55
+  - first:
+      213: 3718349545834327774
+    second: Paredes_56
+  - first:
+      213: 5881565419534124458
+    second: Paredes_57
+  - first:
+      213: -1102215658927618262
+    second: Paredes_58
+  - first:
+      213: -439095200817776215
+    second: Paredes_59
+  - first:
+      213: -3985363308279090471
+    second: Paredes_60
+  - first:
+      213: 3311848741792338259
+    second: Paredes_61
+  - first:
+      213: 4817553005823003317
+    second: Paredes_62
+  - first:
+      213: -3522538747637329422
+    second: Paredes_63
+  - first:
+      213: 3625985368633958437
+    second: Paredes_64
+  - first:
+      213: -6056011431084585079
+    second: Paredes_65
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Paredes_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c48bd7a37692fb4999f7424130842f0
+      internalID: -1895433129564475845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2048d34d174db49b6c3bab5320e1ad
+      internalID: -5715055960734410157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41d10e9ba713144a832001fd43419b5
+      internalID: -1973114492688062722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d95877a3b70a4348bccf61c1fb94e9c
+      internalID: -4765847839336209045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263d67c4219f0f74e9aaec093d12a9b2
+      internalID: -6659889779433124344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c7e7523c80cc74e9aa2de287bc15ef
+      internalID: 21601579227421369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_6
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405517cb0e5c4ae4a9dbf67d6ad24c7d
+      internalID: 1352824143358360269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_7
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95eca624864c1244189b574f811697f9
+      internalID: 5302212941724951960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0738370d1bf41d043b61f43f12d3fdef
+      internalID: -4301732695567526576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8b1a3fe221c9e489cc78d997e11c32
+      internalID: 1598498175783665898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_10
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bb7450a6567d645950f8783088dbb9
+      internalID: -2443741088075595399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_11
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87ac704e97408045a1ae4819f92b422
+      internalID: 1101978838674888097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_12
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb43cbe5e3fd1d468ca7396b1f45832
+      internalID: -8410326994171907482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_13
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3565bab931db2434e891e781435f7889
+      internalID: -4521073969657509394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_14
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a304ce5bcb27d441a287b5950eb0c31
+      internalID: -587544705232022549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_15
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81ac0c99ee01d14bae07fc6c8d0eac9
+      internalID: 4152818607092868837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e84843085b18940afb2fe4543361b1
+      internalID: 4648395432000329643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f57e8f8aea73646a3b4d387da28d76
+      internalID: 4904037883576702560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8c4b96dbcb7d14d8c9facf4a982491
+      internalID: -5147001212435945114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_19
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c7f53c81c362d4c818f06e5d44b12c
+      internalID: -274336276637970230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_20
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea0a78502d643743bb28202dff086be
+      internalID: -4018689941789413354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a83e35c8bb09c14a9b6e81929cd7dcd
+      internalID: -444608631255451721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8a1af707be0024da47d87cc21580d2
+      internalID: 4395961465245430566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_23
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6717f3cf9ac5d41bf10611fc257a76
+      internalID: -673537766735223543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c2b21f4c509e04a925215e0f4593cd
+      internalID: -1485864946700016636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6341420cb54f24da4730381f45139a
+      internalID: 1082167403261218631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_26
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94bf5b4e12f6ce45ad78033227451d8
+      internalID: -1953926129415849735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870c11702431f4f48ae82c1c6f9889cb
+      internalID: 4070803646099970579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_28
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0312b6cf126bfa4eb8a8e26e199d7e3
+      internalID: -9217354084608157651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_29
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c496eb0819a6606479f47eef2055d01e
+      internalID: 3854151587308119976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_30
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb90e6af3c2fbe149beb029e0ef696d8
+      internalID: 7810506007578345625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_31
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7838d89d203dd664abf135b9084bf100
+      internalID: -7036626189673525054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_32
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0c671f8a9cc304b98150415543a0de
+      internalID: 5692556452468444216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_33
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d64d1050e196c64495831c86bbaafb9
+      internalID: -5190550391461894265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_34
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c5dc42bd881e544acadbc43681641f
+      internalID: 7718011205386604424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_35
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0158d1f47fc7244aa3669c7b27e6a7
+      internalID: -7114128832127031192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b202b967de044454eaec7e63fdb37b82
+      internalID: -4371686425846071498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_37
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a268d9087a1022d438c56c9a6a136a06
+      internalID: 4198544585416278049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_38
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d9d7830ef1b97429ccbc9b30280f61
+      internalID: -5789862680437895513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_39
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2788cf60de4863549833ee0284c2e97a
+      internalID: -6492993565476309618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310e90e47fecd8f49904423e65734950
+      internalID: -6607818489919424364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_41
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1321f972b65d4941a6e5f0a6024f65f
+      internalID: -8919337098095786512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_42
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9750d2d78433e4789aae1354e69349
+      internalID: -2665803818116940517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_43
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321a90136170bf4438e90e3e260c1dab
+      internalID: -1340322784099271824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_44
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065aa69a61748e449a3bd4f4d98860db
+      internalID: -8795326658905782916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_45
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccebf57c9ee464342b55db935d31b532
+      internalID: -8183828543479445020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_46
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af619887bfd2534a94e9276a8b87902
+      internalID: -4453666279291509069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_47
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f685b4f572e954992d61fd55a650bf
+      internalID: 8088266981231320512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_48
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dda0028e7555f4c81a4447eebe97d4
+      internalID: 7233299498389603938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_49
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32300b6999cdbd4391d004dc0f85d51
+      internalID: 5570605748571602061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_50
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46bd1057a5a3dd48abbcbd384034b6c
+      internalID: 2814968478700309647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_51
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5327a06180427814fa441239602bb256
+      internalID: -1583936951488827145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_52
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55438d42a1e8ccb45a6964e729e73e48
+      internalID: -7508147634132572041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_53
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd2b8bcfe1fa4b4b9f07a04e9cbdaab
+      internalID: 6926700870717252525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_54
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e963241a25db59c45bf7ed833e02950d
+      internalID: -3425645902606785196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_55
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf584f7cd9135364c80dc014b5920ebe
+      internalID: -5317712449249541963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_56
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b6d372695c5a149ba65f4eb47b80bb
+      internalID: 3718349545834327774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_57
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9e8bbdc4f3fd74dba9e6b32bb9efb0
+      internalID: 5881565419534124458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_58
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0da22220a2aea4986b1d673ff59b61
+      internalID: -1102215658927618262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_59
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc7da330c81b74449161909d6e69443
+      internalID: -439095200817776215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paredes_60
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f2b7b1ce2fde244b8a3a9abb9822af
+      internalID: -3985363308279090471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
