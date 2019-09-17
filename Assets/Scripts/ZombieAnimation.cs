@@ -6,7 +6,10 @@ public class ZombieAnimation : MonoBehaviour
 {
     private Rigidbody2D rb2D;
 
+    [SerializeField]
+    private float velocidade = 0;
     float horizontal;
+    float vertical;
 
     void Start()
     {
@@ -17,12 +20,20 @@ public class ZombieAnimation : MonoBehaviour
 
     void Update()
     {
+        vertical = Input.GetAxis("Vertical");
+        MovimentarY(vertical);
+
         horizontal = Input.GetAxis("Horizontal");
-        Movimentar(horizontal);
+        MovimentarX(horizontal);
+
     }
 
-    private void Movimentar(float h)
+        private void MovimentarY(float v)
     {
-        rb2D.velocity = new Vector2(h, rb2D.velocity.y);
+        rb2D.velocity = new Vector2(v*velocidade, rb2D.velocity.x);
+    }
+        private void MovimentarX(float h)
+    {
+        rb2D.velocity = new Vector2(h*velocidade, rb2D.velocity.x);
     }
 }
