@@ -63,6 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ZombieAnimation.cs" />
+    <Compile Include="Assets\Scripts\ZombieMove.cs" />
+    <Compile Include="Assets\Scripts\ZombieMove2.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Luiz  Gabriel/Desktop/2019821_102541_LevelDesign (2)/Game Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
