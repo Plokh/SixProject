@@ -62,7 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ZombieAnimation.cs" />
+    <Compile Include="Assets\Scripts\Bala.cs" />
+    <Compile Include="Assets\Scripts\BossAtaque.cs" />
+    <Compile Include="Assets\Scripts\ColisaoPersonagens.cs" />
+    <Compile Include="Assets\Scripts\ControleCamera.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Projetil.cs" />
     <Compile Include="Assets\Scripts\ZombieMove.cs" />
     <Compile Include="Assets\Scripts\ZombieMove2.cs" />
     <Reference Include="Unity.Timeline.Editor">
