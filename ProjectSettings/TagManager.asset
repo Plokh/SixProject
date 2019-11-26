@@ -4,10 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Limite
-  - Inimigo
-  - Parede
-  - Detalhes
+  - arma
+  - inimigo
+  - parede
+  - saidaDungeon
+  - escape
   layers:
   - Default
   - TransparentFX
