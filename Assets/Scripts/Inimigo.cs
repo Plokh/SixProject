@@ -2,38 +2,42 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Inimigo 	//Basicamente seguimos esses videos, porém modificando para nossas necessidades.
 {										//https://www.youtube.com/channel/UCoxRNjIDKlzxxl8OOJub6CA
-    bool entroNoRange = false;			//https://www.youtube.com/channel/UCC2k-SBDIRK1Jg1vJSYOBYg
-    bool estaDirecaoPlayer = true;		//https://www.youtube.com/channel/UCok1vSaNxZZrxufASLHSqJg
-    bool estaParado = false;			//https://unity3d.com/pt/learn/tutorials
-    bool estaRecuando = false;
+    public bool entroNoRange = false;			//https://www.youtube.com/channel/UCC2k-SBDIRK1Jg1vJSYOBYg
+    public bool estaDirecaoPlayer = true;		//https://www.youtube.com/channel/UCok1vSaNxZZrxufASLHSqJg
+    public bool estaParado = false;			//https://unity3d.com/pt/learn/tutorials
+    public bool estaRecuando = false;
 
     int andandoKey = Animator.StringToHash("andando");
 
-    public Vector2 _inimigoVelocidade = new Vector2(0.5f, 0.5f); //Velocidade em que o inimigo irá andar
+    public Vector2 _inimigoVelocidade = new Vector2(.5f, .5f); //Velocidade em que o inimigo irá andar
     public float _inimigoRangeAtaque = 1;
     public float _inimigoRangeRecua = 2;
     public float tempoParado;
     public float tempoRecua;
-    public float duracaoRecua = 3;
-    public float duracaoParado = 3;
+    public float duracaoRecua = 5;
+    public float duracaoParado = 5;
     public float playerDistancia;
 
 
-    public Transform _playerTransform, _projetilRefTranform, _inimigoTranform;
-    public GameObject _projetilPrefabObjeto;
-    public Animator _inimigoAnimator; //Para utilizar a animação do inimigo andando
-    public Rigidbody2D _inimigoRB2D;
-    public SpriteRenderer _inimigoSpriteRenderer;
+    private Transform _projetilRefTranform, _inimigoTranform;
+    private GameObject _projetilPrefabObjeto;
+    private Transform _playerTransform;
+    private Animator _inimigoAnimator; //Para utilizar a animação do inimigo andando
+    private Rigidbody2D _inimigoRB2D;
+    private SpriteRenderer _inimigoSpriteRenderer;
 
-    public Inimigo(GameObject inimigo,Transform playerTranform, GameObject projetilPrefab)
+    public int _inimigoVida = 100;
+
+    public Inimigo(GameObject inimigo, GameObject _playerObject, GameObject projetilPrefab)
     {
         _inimigoAnimator = inimigo.GetComponent<Animator>();//Inicializando o animator
         _inimigoTranform = inimigo.GetComponent<Transform>();
         _inimigoRB2D = inimigo.GetComponent<Rigidbody2D>();
         _inimigoSpriteRenderer = inimigo.GetComponent<SpriteRenderer>();
-        _playerTransform = playerTranform;
+        _playerTransform = _playerObject.GetComponent<Transform>();
         _projetilPrefabObjeto = projetilPrefab;
         _projetilRefTranform = inimigo.transform.GetChild(0);
     }
@@ -42,8 +46,8 @@ public class Inimigo 	//Basicamente seguimos esses videos, porém modificando pa
     {
         playerDistancia = Vector3.Distance(_inimigoTranform.position, _playerTransform.position);
 
-        Animacao();
         Atirar();
+        Animacao();
 
         if (estaDirecaoPlayer) //se esta em direção ao player
         {
@@ -55,7 +59,7 @@ public class Inimigo 	//Basicamente seguimos esses videos, porém modificando pa
             }
             else
             {
-                //entroNoRange = false;
+                entroNoRange = false;
                 estaDirecaoPlayer = true;
                 estaParado = false;
             }
@@ -80,33 +84,20 @@ public class Inimigo 	//Basicamente seguimos esses videos, porém modificando pa
         }
         else if (estaRecuando) //se esta recuando em relção ao player
         {
-            if(playerDistancia <= _inimigoRangeRecua || tempoRecua <= duracaoRecua) //se o tempo de de recuar ou a distancia maxima de recuo não foi atingido
-            {
-                tempoRecua += Time.deltaTime;
-            }
-            else
+            if(playerDistancia >= _inimigoRangeRecua || tempoRecua >= duracaoRecua) //se o tempo de de recuar ou a distancia maxima de recuo não foi atingido
             {
                 estaDirecaoPlayer = true;
                 estaParado = false;
                 estaRecuando = false;
                 tempoRecua = 0;
             }
+            else
+            {
+                tempoRecua += Time.deltaTime;
+            }
             MovimentoDirecaoRecuaPlayer();
         }
     }
-
-    //métodos
-
-    /*OnTriggerEnter2D: Aqui nós checamos se o inimigo chegou ao limite de sua patrulha, para isso colocamos um if que
-      utilizando a tag definida no Unity para o Limite checa se a posição deve ser alterada. Caso o inimigo tenha
-      tocado o limite utilizamos o método MudarDirecao para que que ele altere a sua rota
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Limite")
-        {
-            Animacao();
-        }
-    }*/
 
     private void MovimentoDirecaoPlayer()
     {
@@ -151,9 +142,21 @@ public class Inimigo 	//Basicamente seguimos esses videos, porém modificando pa
     {
         if (entroNoRange == true)
         {
-            GameObject projetil = GameObject.Instantiate(_projetilPrefabObjeto, _projetilRefTranform.position, _projetilRefTranform.rotation);
-            projetil.GetComponent<Rigidbody2D>().velocity = (_playerTransform.position - _inimigoTranform.position) * 1f; //joga o objeto
+            for (int i=0;i<=3;i++)
+            {
+                GameObject projetil = ProjetilPool.GetInstance().Create(_projetilRefTranform.position, _projetilRefTranform.rotation, 2);
+                projetil.GetComponent<Rigidbody2D>().velocity = (_playerTransform.position - _inimigoTranform.position) * 1f; //joga o objeto
+            }
             entroNoRange = false;
+        }
+    }
+
+    public void TomarDano(int dano)
+    {
+        _inimigoVida -= dano;
+        if (_inimigoVida <= 0)
+        {
+            Debug.Log("Morreu otario");
         }
     }
 

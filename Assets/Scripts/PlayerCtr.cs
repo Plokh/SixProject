@@ -1,25 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerCtr : MonoBehaviour
 {
     public GameObject _armaObjeto;
-    Player player = null;
-    Arma arma = null;
+    public Player player;
+    public Slider _uiVida;
+    public Text _uiVidaNum;
 
     private void Awake()
     {
-        player = new Player(this.gameObject);
+        player = new Player(this.gameObject, _armaObjeto, _uiVida, _uiVidaNum);
     }
-
-    private void Start()
-    {
-        _armaObjeto = (GameObject)Instantiate(_armaObjeto, this.gameObject.transform.GetChild(0));
-        arma = _armaObjeto.GetComponent<ArmaCtr>().armaCriada();
-        player.PegaArma(arma);
-    }
-
     void FixedUpdate()
     {
         player.onFixedUpdate();
@@ -30,11 +24,22 @@ public class PlayerCtr : MonoBehaviour
         player.onUpdate();
     }
 
-    /*private void OnTriggerStay2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (other.CompareTag("arma") || other.CompareTag("escape"))
         {
-            //collision.gameObject.GetComponent<Arma>();
+            player._interacaoCollider = other;
+            //other.gameObject.GetComponent<Transform>().localScale = new Vector3(.8f, .8f, 0); //passar para a classe arma
         }
-    }*/
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("arma") || other.CompareTag("escape"))
+        {
+            player._interacaoCollider = null;
+            //other.gameObject.GetComponent<Transform>().localScale = new Vector3(.5f, .5f, 0);
+        }
+    }
+
 }

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
+[System.Serializable]
 public class Arma
 {
     public GameObject _armaPrefabObjet;
@@ -24,10 +25,13 @@ public class Arma
 
     public void Atira(Vector3 direcao)
     {
-        //https://philipperocha.wordpress.com/2016/05/29/criando-emissao-de-projeteis-para-o-personagem-como-forma-de-ataque-aos-inimigos/
+        GameObject projetil = ProjetilPool.GetInstance().Create(_projetilRef.position, _projetilRef.rotation, 1);
+        projetil.GetComponent<Rigidbody2D>().velocity = direcaoNormalized(direcao) * _projetilVelocidade; //joga o objeto
+        /*/https://philipperocha.wordpress.com/2016/05/29/criando-emissao-de-projeteis-para-o-personagem-como-forma-de-ataque-aos-inimigos/
         //http://equilibrecursos.com.br/2013/12/unity-3d-17-atirando-projeteis-parte-2-tiros-estilo-megaman/
         GameObject projetil = GameObject.Instantiate(_projetilPrefabObjet, _projetilRef.position, _projetilRef.rotation); //Estancia objeto
         projetil.GetComponent<Rigidbody2D>().velocity = direcaoNormalized(direcao) * _projetilVelocidade; //joga o objeto
+        //ObjectPool.GetInstance().Create(spawnBullet.position, Quaternion.identity, direction);*/
     }
 
     private Vector2 direcaoNormalized(Vector3 direcao)
